@@ -1,0 +1,8 @@
+@import "./variables.scss";
+
+.wrapper {
+  max-width: 665px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 152px 1fr;
+}

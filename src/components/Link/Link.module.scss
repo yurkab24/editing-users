@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.link {
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: $main-blue;
+  color: #ffffff;
+  border-radius: 5px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-decoration: none;
+}

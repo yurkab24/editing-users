@@ -1,0 +1,45 @@
+@import "../../variables.scss";
+
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: 420px;
+  position: relative;
+
+  background: $main-grey;
+  border-radius: 8px;
+  padding: 10px;
+
+  font-family: "Roboto", sans-serif;
+
+  & span:first-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #a3a3a3;
+  }
+
+  & span:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+  }
+  & a {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: $main-blue;
+
+  }
+}
